@@ -1,0 +1,186 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+/* 自定义字体加载 */
+@font-face {
+  font-family: 'FZHuazhi1';
+  src: url('../public/fonts/cangeguatengti.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi2';
+  src: url('../public/fonts/wendaomeihuati.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi3';
+  src: url('../public/fonts/hyperoxide-1j96j.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi4';
+  src: url('../public/fonts/kemujan-2v3zw.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi5';
+  src: url('/fonts/monogram-ayerj.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi6';
+  src: url('../public/fonts/xenonregular-goeao.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi7';
+  src: url('../public/fonts/playchickens-lvzje.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi8';
+  src: url('../public/fonts/wendaomeihuati.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi9';
+  src: url('../public/fonts/whatdo-dydpr.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi10';
+  src: url('../public/fonts/ArtierEN-2.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi11';
+  src: url('../public/fonts/ggth-2.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi12';
+  src: url('../public/fonts/xactoblade-davz.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi13';
+  src: url('../public/fonts/flavoristafree-dyva3.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi14';
+  src: url('../public/fonts/Cube-Font-1.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi16';
+  src: url('../public/fonts/LittleBirdsRegular-lg81w-2.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi17';
+  src: url('../public/fonts/MissalUncialeMaster-2.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FZHuazhi18';
+  src: url('../public/fonts/FetteGotisch-D-OT-Regular-2.otf') format('opentype');
+  font-display: swap;
+}
+
+/* 额外的字体 */
+@font-face {
+  font-family: 'NightLight';
+  src: url('../public/fonts/nightlight-e4zrg.otf') format('opentype');
+  font-display: swap;
+}
+
+
+/* 字幕样式 */
+.xg-text-track.text-track-stroke.follow-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.text-track-double {
+    font-weight: bold;
+    /* 添加字体描边效果 */
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+    
+}
